@@ -153,7 +153,7 @@ int main(int argc, char **argv)
     error_exit(10,"Format %s is not witeable" ,format);
   }
 
-  // 3 commandline args needed
+  // 4 commandline args needed
   if (argc<5) {
       error_exit(20, "Missing Parameter\nUsage: %s infile outfile N|Y N|Y\n", argv[0]);
   }
